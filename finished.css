@@ -37,7 +37,7 @@ h1 {
 	  display:block;
     color: #ffffff;
     background-color: #98bf21;
-    font-weight: thin;
+    font-weight: normal;
     text-align:center;
     text-decoration: none;
     padding: 4px;
@@ -48,7 +48,6 @@ h1 {
     background-color: #7a991a;
 }
 
-}
 
 #footer {
     color: black;
