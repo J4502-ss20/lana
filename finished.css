@@ -1,0 +1,62 @@
+/*styles go here*/
+
+/*p {
+    color: red;
+}*/
+
+p {
+	color: #666666;
+    font-family: 'Nunito Sans','Noto Serif JP' sans-serif;
+		text-align: center;
+		font-weight: normal;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+		text-align:center;
+		font-weight: bold;
+}
+
+#container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#nav {
+    padding: 0;
+	  list-style-type: none;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	  border-bottom: 2px solid #ccc;
+}
+
+#nav a:link, #nav a:visited {
+	  display:block;
+    color: #ffffff;
+    background-color: #98bf21;
+    font-weight: thin;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#nav a:hover, #nav a:active {
+    background-color: #7a991a;
+}
+
+}
+
+#footer {
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+}
+
+img {
+	border: none;
+}
