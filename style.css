@@ -9,6 +9,7 @@ p {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1rem;
 	lime-height: 1.4rem;
+	text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,7 +59,7 @@ body{
 
 #footer {
     color: black;
-    font-family: 'Nunito Sans', sans-serif; 
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 0.8em;
     border-top: 1px solid black;
 }
