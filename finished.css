@@ -295,11 +295,12 @@ img {
 	border: none;
 }
 
-}
 
 #footer {
 		color: black;
 		font-family: 'Nunito Sans', sans-serif;
 		font-size: 0.8em;
 		border-top: 1px solid black;
+}
+
 }
