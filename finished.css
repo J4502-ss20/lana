@@ -65,7 +65,7 @@ p {
 
 		#nav a:link, #nav a:visited {
 		display: display;
-		color: #98C036;
+		color: #5A2B1B;
 		background-color: white;
 		font-weight: bold;
 		text-align: center;
@@ -230,7 +230,7 @@ p {
 
 	#nav a:link, a:visited {
 		display:block;
-	    color: #98C036;
+	    color: #5A2B1B;
 	    background-color: #98bf21;
 	    font-weight: bold;
 	    text-align:center;
@@ -270,7 +270,7 @@ h1 {
 
 #nav a:link, #nav a:visited {
 	  display:block;
-    color: #98C036;
+    color: #5A2B1B;
     background-color: #98bf21;
     font-weight: normal;
     text-align:center;
