@@ -14,7 +14,7 @@ p {
 
 		h1{
 		text-align: center;
-		font-family:'Roboto', sans-serif;
+		font-family:'Roboto', 'Nunito Sans', sans-serif;
 		font-weight: bold;
 		color: white;
 		font-size: 2em;
@@ -27,7 +27,7 @@ p {
 		text-align: center;
 		background-color:white;
 		font-weight: bold;
-		font-family: 'Bree Serif', serif;
+		font-family: 'Nunito Sans', sans-serif;
 		}
 
 
@@ -71,7 +71,7 @@ p {
 		text-align: center;
 		text-decoration: none;
 		padding: 4px;
-		font-family: 'Roboto', sans-serif;
+		font-family: 'Nunito Sans','Roboto', sans-serif;
 		}
 
 
@@ -84,7 +84,7 @@ p {
 
 		#footer{
 		color: black;
-		font-family:'PT Serif Caption', serif;
+		font-family:'Nunito Sans', sans-serif;
 		font: 0.8em;
 		border-top: 1px solid black;
 		}
@@ -236,7 +236,7 @@ p {
 	    text-align:center;
 	    text-decoration: none;
 	    padding: 4px;
-	    font-family: Helvetica, Arial, sans-serif;
+	    font-family: Helvetica, Arial,'Nunito Sans', sans-serif;
 	}
 
 	#nav a:hover, a:active {
