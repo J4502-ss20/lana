@@ -100,20 +100,11 @@ p {
 		display: flex;
 	}
 
-	<div class=" #nav ">
+	<div class=" #nav " >
 		<div>1</div>
 		<div>2</div>
 		<div>3</div>
 	</div>
-
-
-	@media (min-width: 600px) {
-	 #nav {
-		 flex-direction: row;
-		 justify-content: space-around;
-	 }
-	}
-
 
 
 	nav ul{
@@ -262,4 +253,9 @@ body{
     border-top: 1px solid black;
 }
 
+@media (min-width: 600px) {
+ #nav {
+	 flex-direction: row;
+	 justify-content: space-around;
+ }
 }
