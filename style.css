@@ -32,8 +32,6 @@ p {
 	font-family: 'Nunito Sans', sans-serif;
 	}
 
-
-
 	.intro{
 	max-width: 500px;
 	}
@@ -97,6 +95,16 @@ p {
 	border: none;
 	}
 
+
+	.flex-container {
+		display: flex;
+	}
+
+	<div class="flex-container">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
 
 
 	@media (min-width: 600px) {
