@@ -100,7 +100,8 @@ p {
 		@media (min-width: 600px) {
 		 #nav {
 			 flex-direction: row;
-			 justify-content: space-around;
+			 justify-content:space-around;
+			 align-items:flex-end; 
 		 }
 		}
 
