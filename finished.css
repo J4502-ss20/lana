@@ -97,13 +97,6 @@ p {
 
 
 
-		@media (min-width: 600px) {
-		 #nav {
-			 flex-direction: row;
-			 justify-content:space-around;
-			 align-items:flex-end; 
-		 }
-		}
 
 
 
@@ -304,4 +297,10 @@ img {
 		border-top: 1px solid black;
 }
 
+@media (min-width: 600px) {
+ #nav {
+	 flex-direction: row;
+	 justify-content:space-around;
+	 align-items:flex-end;
+ }
 }
