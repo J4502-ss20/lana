@@ -30,7 +30,11 @@ p {
 		font-family: 'Nunito Sans', sans-serif;
 		}
 
-
+		<div class=" #nav " >
+			<div>1</div>
+			<div>2</div>
+			<div>3</div>
+		</div>
 
 		.intro{
 		max-width: 500px;
