@@ -100,7 +100,10 @@ p {
 		}
 
 
-
+Grid{
+	max-width:800px;
+	display:grid;
+}
 
 
 
