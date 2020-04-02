@@ -21,20 +21,12 @@ p {
 		background-color: lightblue;
 		}
 
-
-
 		body {
 		text-align: center;
 		background-color:white;
 		font-weight: bold;
 		font-family: 'Nunito Sans', sans-serif;
 		}
-
-		<div class=" #nav " >
-			<div>1</div>
-			<div>2</div>
-			<div>3</div>
-		</div>
 
 		.intro{
 		max-width: 500px;
@@ -100,13 +92,6 @@ p {
 		}
 
 
-Grid{
-	max-width:800px;
-	display:grid;
-}
-
-
-
 		nav ul{
 		display: none;
 		}
@@ -120,20 +105,35 @@ Grid{
 		margin: 0;
 		padding: 0;
 		}
-		.card1{
-		grid-area: a;
-		}
-		.card2{
-		grid-area: b;
-		}
-		.card3{
-		grid-area: c;
-		}
-		.card4{
-		grid-area: d;
-		}
-		.card5{
-		grid-area: e;
+
+		@media screen and (min-width:1000px) {
+
+
+			.card1{
+			grid-area: a;
+			}
+			.card2{
+			grid-area: b;
+			}
+			.card3{
+			grid-area: c;
+			}
+			.card4{
+			grid-area: d;
+			}
+			.card5{
+			grid-area: e;
+			}
+
+		.grid {
+			display: grid;
+			max-width: 700px;
+			grid-template-columns: 1fr 3fr 1fr;
+			grid-template-areas:
+					"a b b"
+					"c c e"
+					"d d .";
+				}
 		}
 			.menu-trigger {
 					order: 1;
@@ -228,12 +228,6 @@ h1 {
 		font-weight: bold;
 }
 
-<div class=" #nav " >
-	<div>1</div>
-	<div>2</div>
-	<div>3</div>
-</div>
-
 #container{
     width: 95%;
     margin: 0 auto;
@@ -288,13 +282,13 @@ img {
 @media (min-width: 600px) {
  #nav {
 	 display: flex;
- 	justify-content;space-around;
- 	align-items;center
- 	flex-direction;row
- 	order;1;
- 	align-self;center;
- 	flex-wrap;wrap;
- 	align-content;space-around;
+ 	justify-content:space-around;
+ 	align-items:center;
+ 	flex-direction:row;
+ 	order: 1;
+ 	align-self:center;
+ 	flex-wrap:wrap;
+ 	align-content:space-around;
 
 
  }

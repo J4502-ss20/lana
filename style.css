@@ -46,8 +46,6 @@ p {
 		margin: 0 auto;
 	}
 
-
-
 	#nav {
 	padding: 0;
 	list-style-type: none;
@@ -60,8 +58,6 @@ p {
 	padding: 0;
 	border-bottom: 1px solid #ccc;
 	}
-
-
 
 	#nav a:link, #nav a:visited {
 	display: display;
@@ -89,23 +85,13 @@ p {
 	border-top: 1px solid black;
 	}
 
-
-
 	img{
 	border: none;
 	}
 
-
 	.flex-container {
 		display: flex;
 	}
-
-	<div class=" #nav " >
-		<div>1</div>
-		<div>2</div>
-		<div>3</div>
-	</div>
-
 
 	nav ul{
 	display: none;
@@ -115,39 +101,45 @@ p {
 	padding: 10px;
 	border-radius: 10px;
 	}
-	ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	}
-	.card1{
-	grid-area: a;
-	}
-	.card2{
-	grid-area: b;
-	}
-	.card3{
-	grid-area: c;
-	}
-	.card4{
-	grid-area: d;
-	}
-	.card5{
-	grid-area: e;
-	}
+
 	@media screen and (min-width:1000px) {
-	.cards {
+		/* .grid {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		} */
+
+		/* .card1{
+		grid-area: a;
+		}
+		.card2{
+		grid-area: b;
+		}
+		.card3{
+		grid-area: c;
+		}
+		.card4{
+		grid-area: d;
+		}
+		.card5{
+		grid-area: e;
+		} */
+
+	.grid {
 		display: grid;
 		max-width: 700px;
 		grid-template-columns: 1fr 3fr 1fr;
-		grid-template-areas:
+		/* grid-template-areas:
 				"a b b"
 				"c c e"
-				"d d .";
+				"d d ."; */
+			}
 	}
-	}
+
+
+/*
 	@media screen and (min-width:1200px) {
 		.cards {
 			display: grid;
@@ -261,3 +253,4 @@ body{
 	 justify-content: space-around;
  }
 }
+*/
