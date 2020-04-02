@@ -119,6 +119,8 @@ p {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
 	}
 	.card1{
 	grid-area: a;
