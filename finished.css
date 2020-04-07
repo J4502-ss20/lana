@@ -201,7 +201,7 @@ p {
 
 	#nav li {
 	    list-style-type: none;
-	    float: center;
+	    /* float: center;*/
 	    margin: 0;
 	    padding: 0;
 	    width: 25%;
