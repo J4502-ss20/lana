@@ -60,7 +60,7 @@ p {
 
 
 		#nav a:link, #nav a:visited {
-		display: display;
+	/*	display: display; */
 		color: #5A2B1B;
 		background-color: white;
 		font-weight: bold;
