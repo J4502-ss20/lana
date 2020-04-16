@@ -143,14 +143,10 @@ p {
 					color: blue;
 			}
 
-
-
 			h1 {
 					order: 2;
 					font-size: 2em;
 			}
-
-
 
 			nav ul {
 					display: none;
